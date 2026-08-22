@@ -12,4 +12,7 @@ Instead of sorting a string we can represent a string by frequency of its charac
 
 ## Complexity 
 Time Complexity : O(m * n)
-Space Complexity : O(m * n) [total space if the output groups are counted]
+
+Space Complexity : O(m * n) 
+
+[total space if the output groups are counted]
