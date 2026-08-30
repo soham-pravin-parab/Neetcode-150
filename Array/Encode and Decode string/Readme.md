@@ -11,7 +11,11 @@ the length ensures that we know exactly how many characters to read no matter wh
 3. Append the length of the string to the sizes list
 4. Build a single string by: writing all lengths separated by commas Adding a # after all the lengths are appended  appending all the actual strings in order
 5. Returning final Encoding string 
-
+## Decoding 
+1. If the Encoded string is empty then return a empty string
+2. Read characters from the start till reaching # to extract the lengths
+3. After the # extract substring according to size list
+4. Return the Decoded string
  # Complexity 
 Time Complexity : O(m+n)
 
