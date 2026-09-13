@@ -16,3 +16,6 @@ Because the array is sorted we can use two pointers to adjust the sum efficientl
    
 3. If no pairs match return a empty list
 # Complexity 
+Time Complexity : O(n)
+
+Space Complexity : O(1)
